@@ -69,3 +69,8 @@ A lightweight implementation of print_rtf (Rich Text Format console printing) mo
 #### File 4: src/am_arm_firmware/src/main.c
 The main microcontroller production firmware executing tasks inside FreeRTOS. It handles deterministic multi-axis servo trajectories and printing status logs via the print_rtf definitions.
 
+#### File 5: src/am_arm_control/src/trajectory_planner.cpp
+A native ROS 2 runtime executable node. It listens for material coordinate instructions and translates Cartesian toolpaths into smooth, multi-axis joint space position commands.
+
+
+
