@@ -65,3 +65,7 @@ This custom real-time C++ class bridges the high-level ROS 2 controller manager 
 #### File 3: src/am_arm_firmware/include/print_rtf.h
 
 A lightweight implementation of print_rtf (Rich Text Format console printing) modified for bare-metal and embedded RTOS architectures to structure target log payloads.
+
+#### File 4: src/am_arm_firmware/src/main.c
+The main microcontroller production firmware executing tasks inside FreeRTOS. It handles deterministic multi-axis servo trajectories and printing status logs via the print_rtf definitions.
+
