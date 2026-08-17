@@ -61,3 +61,7 @@ The core physics model defining a 6-DOF industrial manipulator equipped with a c
 
 #### File 2: src/am_arm_hardware/src/ros2_hardware_interface.cpp
 This custom real-time C++ class bridges the high-level ROS 2 controller manager workspace directly to low-latency serial buses or physical driver endpoints.
+
+#### File 3: src/am_arm_firmware/include/print_rtf.h
+
+A lightweight implementation of print_rtf (Rich Text Format console printing) modified for bare-metal and embedded RTOS architectures to structure target log payloads.
