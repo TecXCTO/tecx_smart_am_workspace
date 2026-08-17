@@ -59,3 +59,5 @@ smart_am_workspace/
 The core physics model defining a 6-DOF industrial manipulator equipped with a continuous position-controlled extrusion nozzle terminal effector.
 
 
+#### File 2: src/am_arm_hardware/src/ros2_hardware_interface.cpp
+This custom real-time C++ class bridges the high-level ROS 2 controller manager workspace directly to low-latency serial buses or physical driver endpoints.
