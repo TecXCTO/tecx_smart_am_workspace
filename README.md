@@ -73,4 +73,7 @@ The main microcontroller production firmware executing tasks inside FreeRTOS. It
 A native ROS 2 runtime executable node. It listens for material coordinate instructions and translates Cartesian toolpaths into smooth, multi-axis joint space position commands.
 
 
+### Part 3: Compile, Build, and Deploy the Project Workspace
+
+Follow these exact steps in your terminal to compile the packages, launch the real-time simulation layer, and push your source modifications up to your GitHub repository.
 
